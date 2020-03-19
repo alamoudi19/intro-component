@@ -1,0 +1,188 @@
+body
+  {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-x: hidden;
+
+  }
+
+h1
+  {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 20px;
+  }
+
+  p
+    {
+      color: #8f8f8f;
+      line-height: 1.5;
+      padding-bottom: 20px;
+
+    }
+
+  #navegation
+    {
+      font-family: 'Barlow', sans-serif;
+     font-weight: 700;
+
+    }
+  .navbar
+    {
+      padding: 0 0 4.5rem;
+    }
+
+    .nav-item
+      {
+        padding: 0 12px;
+      }
+.nav-link
+{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+
+}
+.nav-link:hover
+{
+  text-decoration: underline;
+}
+.container-fluid
+{
+  padding-top: 40px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 10px;
+
+}
+
+#title .container-fluid
+{
+  padding-top: 40px;
+  /* padding-right: 120px; */
+  padding-left: 120px;
+  padding-bottom: 10px;
+
+}
+
+
+
+/*********************** titl ***********************/
+.intro
+  {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+    margin-top: 30px;
+  }
+
+.new-style
+  {
+    color: #fff;
+    background-color: black;
+    padding: 0 2px;
+    font-style: normal;
+    border-radius: 120px;
+    border-width: 30%;
+  }
+
+.btn
+  {
+    background-color: hsl(0, 100%, 68%);
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline;
+
+
+  }
+
+  .btn:hover
+    {
+      background-color: hsl(0, 100%, 75%);
+      color: #fff;
+      font-family: 'Barlow', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+.title-image
+{
+  width: 800px;
+
+}
+.intro-p
+{
+  margin-top: -10px;
+}
+
+@media (max-width: 375px)
+  {
+    body
+      {
+        text-align: center;
+      }
+
+      .navbar-nav
+      {
+        text-align: center;
+      }
+      /* .title-image
+      {
+        width: 200px;
+
+      } */
+
+  }
+
+  @media (max-width: 1028px)
+    {
+      .navbar-nav
+      {
+        text-align: center;
+        margin-top: 10px;
+      }
+      /* .title-image
+      {
+        width: 700px;
+
+      } */
+    }
+    @media (max-width: 934px)
+      {
+        .title-image
+        {
+          width: 500px;
+
+        }
+      }
+      @media (max-width: 636px)
+        {
+          .title-image
+          {
+            width: 350px;
+
+          }
+        }
+
+        @media (max-width: 500px)
+          {
+            .title-image
+            {
+              width: 250px;
+            }
+            #title .container-fluid
+            {
+              padding-left: 90px;
+              text-align: center;
+              align-items: center;
+            }
+            #title .container-fluid .col-lg-6 .title-image
+            {
+            padding-right: 100px;
+            }
+
+          }
